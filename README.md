@@ -4,23 +4,15 @@ A full-stack digital banking application built using MongoDB, Express.js, React.
 This project allows users to register, log in, perform fund transfers, view transactions, and manage their account securely.
 
 *Features:
-
 ->Authentication
-
 User Registration
-
 Secure Login with JWT (JSON Web Tokens)
-
 Password hashing using bcrypt
 
 -> Banking Operations
-
 Check account balance
-
 Transfer money between accounts
-
 View transaction history
-
 Deposit & Withdraw (optional / if added)
 
 -> User Profile
@@ -34,9 +26,7 @@ Dark/Light theme toggle
 Navigation bar
 Responsive design
 
-
 Tech Stack:
-
 *Frontend
 React.js, Axios, React Router, Bootstrap / CSS
 
