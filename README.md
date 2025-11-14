@@ -1,42 +1,60 @@
-Banking System – MERN Stack Project
+# 🏦 Banking System – MERN Stack Project
 
-A full-stack digital banking application built using MongoDB, Express.js, React.js, and Node.js (MERN).
-This project allows users to register, log in, perform fund transfers, view transactions, and manage their account securely.
+A full-stack digital banking application built using **MongoDB, Express.js, React.js, and Node.js (MERN)**.  
+This project allows users to register, log in, transfer money, view transactions, and manage their account securely.
 
-*Features:
-->Authentication
-User Registration
-Secure Login with JWT (JSON Web Tokens)
-Password hashing using bcrypt
+---
 
--> Banking Operations:
-Check account balance
-Transfer money between accounts
-View transaction history
-Deposit & Withdraw (optional / if added)
+## 🚀 Features
 
--> User Profile:
-View personal details
-Show account number, email, balance
-Joined date
+### 🔐 Authentication
+- User Registration  
+- Secure Login with **JWT (JSON Web Tokens)**  
+- Password hashing using **bcrypt**  
 
--> Frontend UI:
-Clean and modern React interface
-Dark/Light theme toggle
-Navigation bar
-Responsive design
+### 💳 Banking Operations
+- Check account balance  
+- Transfer money between accounts  
+- View transaction history  
+- (Optional) Deposit & Withdraw  
 
-Tech Stack:
-*Frontend: 
-React.js, Axios, React Router, Bootstrap / CSS
+### 👤 User Profile
+- View name, email, account number  
+- View balance  
+- Joined date  
 
-*Backend: 
-Node.js, Express.js, Mongoose, JWT authentication, bcrypt password hashing
+### 🎨 Frontend UI
+- Clean and modern React interface  
+- Navigation bar  
+- Responsive design  
+- (Optional) Dark/Light mode  
 
-*Database:
-MongoDB
+---
 
-Installation & Setup:
+## 🛠 Tech Stack
+
+### **Frontend**
+- React.js  
+- Axios  
+- React Router  
+- Bootstrap / CSS  
+
+### **Backend**
+- Node.js  
+- Express.js  
+- Mongoose  
+- JWT Authentication  
+- Bcrypt Password Hashing  
+
+### **Database**
+- MongoDB  
+
+---
+
+## ⚙️ Installation & Setup
+
+###  Clone the repository
+```bash
 cd banking-system
 
 Install Backend Dependencies:
