@@ -1,29 +1,29 @@
-# 🏦 Banking System – MERN Stack Project
+#  Banking System – MERN Stack Project
 
 A full-stack digital banking application built using **MongoDB, Express.js, React.js, and Node.js (MERN)**.  
 This project allows users to register, log in, transfer money, view transactions, and manage their account securely.
 
 ---
 
-## 🚀 Features
+##  Features
 
-### 🔐 Authentication
+###  Authentication
 - User Registration  
 - Secure Login with **JWT (JSON Web Tokens)**  
 - Password hashing using **bcrypt**  
 
-### 💳 Banking Operations
+###  Banking Operations
 - Check account balance  
 - Transfer money between accounts  
 - View transaction history  
 - (Optional) Deposit & Withdraw  
 
-### 👤 User Profile
+###  User Profile
 - View name, email, account number  
 - View balance  
 - Joined date  
 
-### 🎨 Frontend UI
+###  Frontend UI
 - Clean and modern React interface  
 - Navigation bar  
 - Responsive design  
@@ -31,7 +31,7 @@ This project allows users to register, log in, transfer money, view transactions
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 ### **Frontend**
 - React.js  
@@ -51,7 +51,7 @@ This project allows users to register, log in, transfer money, view transactions
 
 ---
 
-## ⚙️ Installation & Setup
+##  Installation & Setup
 
 ###  Clone the repository
 ```bash
