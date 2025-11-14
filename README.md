@@ -57,30 +57,30 @@ This project allows users to register, log in, transfer money, view transactions
 ```bash
 cd banking-system
 
-Install Backend Dependencies:
+##  Install Backend Dependencies:
 cd backend
 npm install
 
-Create a .env file:
+##  Create a .env file:
 MONGO_URI=your_mongodb_url
 JWT_SECRET=your_secret_key
 PORT=5000
 
-Start backend:
+##  Start backend:
 nodemon server.js
 
-Install Frontend Dependencies:
+##  Install Frontend Dependencies:
 cd ../frontend
 npm install
 npm start
 
-Frontend runs on:
+##  Frontend runs on:
 http://localhost:3000
 
-Backend runs on:
+##  Backend runs on:
 http://localhost:5000
 
-API Endpoints (Backend)
+##  API Endpoints (Backend)
 | Method | Endpoint                  | Description        |
 | ------ | ------------------------- | ------------------ |
 | POST   | /api/auth/register        | Register new user  |
@@ -89,7 +89,7 @@ API Endpoints (Backend)
 | POST   | /api/account/transfer     | Transfer money     |
 | GET    | /api/account/transactions | Fetch transactions |
 
-How to run the project:
+##  How to run the project:
 Start backend → nodemon server.js
 Start frontend → npm start
 Create an account
