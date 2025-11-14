@@ -9,37 +9,37 @@ User Registration
 Secure Login with JWT (JSON Web Tokens)
 Password hashing using bcrypt
 
--> Banking Operations
+-> Banking Operations:
 Check account balance
 Transfer money between accounts
 View transaction history
 Deposit & Withdraw (optional / if added)
 
--> User Profile
+-> User Profile:
 View personal details
 Show account number, email, balance
 Joined date
 
--> Frontend UI
+-> Frontend UI:
 Clean and modern React interface
 Dark/Light theme toggle
 Navigation bar
 Responsive design
 
 Tech Stack:
-*Frontend
+*Frontend: 
 React.js, Axios, React Router, Bootstrap / CSS
 
-*Backend
+*Backend: 
 Node.js, Express.js, Mongoose, JWT authentication, bcrypt password hashing
 
-*Database
+*Database:
 MongoDB
 
-Installation & Setup
+Installation & Setup:
 cd banking-system
 
-Install Backend Dependencies
+Install Backend Dependencies:
 cd backend
 npm install
 
@@ -51,7 +51,7 @@ PORT=5000
 Start backend:
 nodemon server.js
 
-Install Frontend Dependencies
+Install Frontend Dependencies:
 cd ../frontend
 npm install
 npm start
