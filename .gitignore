@@ -1,0 +1,10 @@
+backend/node_modules/
+frontend/node_modules/
+
+*.log
+
+frontend/build/
+backend/dist/
+
+.DS_Store
+Thumbs.db
