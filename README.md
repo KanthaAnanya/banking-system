@@ -71,8 +71,9 @@ Database
 MongoDB
 
  Installation & Setup
+ 
  Clone the repository
-git clone https://github.com/your-username/banking-system.git
+
 cd banking-system
 
  Backend Setup
