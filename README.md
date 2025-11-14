@@ -4,6 +4,7 @@ A full-stack digital banking application built using MongoDB, Express.js, React.
 This project allows users to register, log in, transfer money, view transactions, and manage their account securely.
 
  Features
+ 
  Authentication
 
 User Registration
