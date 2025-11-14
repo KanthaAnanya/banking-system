@@ -51,43 +51,43 @@ This project allows users to register, log in, transfer money, view transactions
 
 ---
 
-## ⚙️ Installation & Setup
+##  Installation & Setup
 
 ###  Clone the repository
 ```bash
 cd banking-system
 
- Backend Setup:
+ ## **Backend Setup**:
 
-Install backend dependencies
+## Install backend dependencies
 cd backend
 npm install
 
- Create a .env file:
+## Create a .env file:
 MONGO_URI=your_mongodb_url
 JWT_SECRET=your_secret_key
 PORT=5000
 
- Start backend:
+## Start backend
 nodemon server.js
 
 
-Backend runs at:
+## Backend runs at
 
 http://localhost:5000
 
- Frontend Setup:
- Install frontend dependencies
+ ## **Frontend Setup**:
+## Install frontend dependencies
 cd ../frontend
 npm install
 npm start
 
 
-Frontend runs at:
+## Frontend runs at:
 
 http://localhost:3000
 
-API Endpoints (Backend):
+## **API Endpoints** (Backend):
 Method	Endpoint	Description
 POST	/api/auth/register	Register new user
 POST	/api/auth/login	Login user
@@ -95,20 +95,14 @@ GET	/api/auth/profile	Get user profile
 POST	/api/account/transfer	Transfer money
 GET	/api/account/transactions	Fetch transactions
 
-How to Run the Project:
+## **How to Run the Project**
 
-Start backend → nodemon server.js
+-Start backend → nodemon server.js
+-Start frontend → npm start
+-Create an account
+-Login
+-Explore dashboard
+-Transfer funds
+-View transactions
+-View profile
 
-Start frontend → npm start
-
-Create an account
-
-Login
-
-Explore dashboard
-
-Transfer funds
-
-View transactions
-
-View profile
