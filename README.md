@@ -1,83 +1,64 @@
-Banking System – MERN Stack Project
+#  Banking System – MERN Stack Project
 
-A full-stack digital banking application built using MongoDB, Express.js, React.js, and Node.js (MERN).
+A full-stack digital banking application built using **MongoDB, Express.js, React.js, and Node.js (MERN)**.  
 This project allows users to register, log in, transfer money, view transactions, and manage their account securely.
 
- Features
- 
- Authentication
+---
 
-User Registration
+##  Features
 
-Secure Login with JWT (JSON Web Tokens)
+###  Authentication
+- User Registration  
+- Secure Login with **JWT (JSON Web Tokens)**  
+- Password hashing using **bcrypt**  
 
-Password hashing using bcrypt
+###  Banking Operations
+- Check account balance  
+- Transfer money between accounts  
+- View transaction history  
+- (Optional) Deposit & Withdraw  
 
- Banking Operations
+###  User Profile
+- View name, email, account number  
+- View balance  
+- Joined date  
 
-Check account balance
+###  Frontend UI
+- Clean and modern React interface  
+- Navigation bar  
+- Responsive design  
+- (Optional) Dark/Light mode  
 
-Transfer money between accounts
+---
 
-View transaction history
+##  Tech Stack
 
-(Optional) Deposit & Withdraw
+### **Frontend**
+- React.js  
+- Axios  
+- React Router  
+- Bootstrap / CSS  
 
- User Profile
+### **Backend**
+- Node.js  
+- Express.js  
+- Mongoose  
+- JWT Authentication  
+- Bcrypt Password Hashing  
 
-View personal details
+### **Database**
+- MongoDB  
 
-Show name, email, account number
+---
 
-View balance
+## ⚙️ Installation & Setup
 
-Joined date
-
- Frontend UI
-
-Clean and modern React interface
-
-Navigation bar
-
-Responsive design
-
-(Optional) Dark/Light mode
-
- Tech Stack
-Frontend
-
-React.js
-
-Axios
-
-React Router
-
-Bootstrap / CSS
-
-Backend
-
-Node.js
-
-Express.js
-
-Mongoose
-
-JWT Authentication
-
-Bcrypt Password Hashing
-
-Database
-
-MongoDB
-
- Installation & Setup
- 
- Clone the repository
-
+###  Clone the repository
+```bash
 cd banking-system
 
  Backend Setup
- Install backend dependencies
+Install backend dependencies
 cd backend
 npm install
 
