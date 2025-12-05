@@ -11,16 +11,24 @@ function Register() {
 
   const handleRegister = async (e) => {
     e.preventDefault();
-    try {
-      const res = await axios.post("https://banking-system-nc7o.onrender.com/api/auth/register", {
-        name,
-        email,
-        password,
-      });
+        try {
+      const res = await axios.post(
+        "https://banking-system-nc7o.onrender.com/api/auth/register",
+        { name, email, password }
+      );
+
+      setIsError(false);
       setMessage(res.data.message + " | Account No: " + res.data.accountNumber);
+
       setTimeout(() => navigate("/login"), 2000);
     } catch (err) {
-      setMessage(err.response?.data?.message || "Registration failed");
+      console.error("Register error:", err);
+      const msg =
+        err?.response?.data?.message ||
+        err?.message ||
+        "Registration failed";
+      setIsError(true);
+      setMessage(msg);
     }
   };
 
@@ -54,7 +62,14 @@ function Register() {
         />
         <button type="submit" className="btn btn-primary w-100">Register</button>
       </form>
-      <p className="mt-3 text-center text-success">{message}</p>
+      <p
+  className={`mt-3 text-center ${
+    message ? (isError ? "text-danger" : "text-success") : ""
+  }`}
+>
+  {message}
+</p>
+
       <p className="text-center mt-2">
         Already have an account?{" "}
         <span
