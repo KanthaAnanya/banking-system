@@ -1,14 +1,19 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 #  Banking System – MERN Stack Project
 =======
 # 🏦 Banking System – MERN Stack Project
 >>>>>>> 2eedc28 (Updated README documentation)
+=======
+#  Banking System – MERN Stack Project
+>>>>>>> e7b2ff3 (Update frontend pages for deployed backend)
 
 A full-stack digital banking application built using **MongoDB, Express.js, React.js, and Node.js (MERN)**.  
 This project allows users to register, log in, transfer money, view transactions, and manage their account securely.
 
 ---
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 ##  Features
 
@@ -18,34 +23,51 @@ This project allows users to register, log in, transfer money, view transactions
 
 ### 🔐 Authentication
 >>>>>>> 2eedc28 (Updated README documentation)
+=======
+##  Features
+
+###  Authentication
+>>>>>>> e7b2ff3 (Update frontend pages for deployed backend)
 - User Registration  
 - Secure Login with **JWT (JSON Web Tokens)**  
 - Password hashing using **bcrypt**  
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ###  Banking Operations
 =======
 ### 💳 Banking Operations
 >>>>>>> 2eedc28 (Updated README documentation)
+=======
+###  Banking Operations
+>>>>>>> e7b2ff3 (Update frontend pages for deployed backend)
 - Check account balance  
 - Transfer money between accounts  
 - View transaction history  
 - (Optional) Deposit & Withdraw  
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ###  User Profile
 =======
 ### 👤 User Profile
 >>>>>>> 2eedc28 (Updated README documentation)
+=======
+###  User Profile
+>>>>>>> e7b2ff3 (Update frontend pages for deployed backend)
 - View name, email, account number  
 - View balance  
 - Joined date  
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ###  Frontend UI
 =======
 ### 🎨 Frontend UI
 >>>>>>> 2eedc28 (Updated README documentation)
+=======
+###  Frontend UI
+>>>>>>> e7b2ff3 (Update frontend pages for deployed backend)
 - Clean and modern React interface  
 - Navigation bar  
 - Responsive design  
@@ -54,10 +76,14 @@ This project allows users to register, log in, transfer money, view transactions
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ##  Tech Stack
 =======
 ## 🛠 Tech Stack
 >>>>>>> 2eedc28 (Updated README documentation)
+=======
+##  Tech Stack
+>>>>>>> e7b2ff3 (Update frontend pages for deployed backend)
 
 ### **Frontend**
 - React.js  
@@ -74,7 +100,14 @@ This project allows users to register, log in, transfer money, view transactions
 
 ### **Database**
 - MongoDB  
+<<<<<<< HEAD
 ## ⚙️ Installation & Setup
+=======
+
+---
+
+##  Installation & Setup
+>>>>>>> e7b2ff3 (Update frontend pages for deployed backend)
 
 ### Clone the repository
 ```bash

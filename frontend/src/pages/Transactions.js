@@ -15,7 +15,7 @@ function Transactions() {
     }
 
     axios
-      .get("http://localhost:5000/api/transactions/history", {
+      .get("https://banking-system-nc7o.onrender.com/api/transactions/history", {
         headers: { Authorization: token },
       })
       .then((res) => {

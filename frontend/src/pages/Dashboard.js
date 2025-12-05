@@ -15,7 +15,7 @@ function Dashboard() {
     }
 
     axios
-      .get("http://localhost:5000/api/account/balance", {
+      .get("https://banking-system-nc7o.onrender.com/api/account/balance", {
         headers: { Authorization: token },
       })
       .then((res) => setAccount(res.data))

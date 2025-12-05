@@ -21,7 +21,7 @@ function Transfer() {
 
     try {
       const res = await axios.post(
-        "http://localhost:5000/api/account/transfer",
+        "https://banking-system-nc7o.onrender.com/api/account/transfer",
         {
           toAccountNumber,
           amount: Number(amount),
