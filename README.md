@@ -1,165 +1,126 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-#  Banking System – MERN Stack Project
-=======
-# 🏦 Banking System – MERN Stack Project
->>>>>>> 2eedc28 (Updated README documentation)
-=======
-#  Banking System – MERN Stack Project
->>>>>>> e7b2ff3 (Update frontend pages for deployed backend)
+ Banking System – MERN Stack Project
 
-A full-stack digital banking application built using **MongoDB, Express.js, React.js, and Node.js (MERN)**.  
-This project allows users to register, log in, transfer money, view transactions, and manage their account securely.
+A full-stack digital banking application built using MongoDB, Express.js, React.js, and Node.js (MERN).
+This project enables users to register, log in, transfer money, track transactions, and manage their accounts securely.
 
----
+ Features
+ Authentication
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-##  Features
+User Registration
 
-###  Authentication
-=======
-## 🚀 Features
+Secure Login using JWT (JSON Web Tokens)
 
-### 🔐 Authentication
->>>>>>> 2eedc28 (Updated README documentation)
-=======
-##  Features
+Password hashing with bcrypt
 
-###  Authentication
->>>>>>> e7b2ff3 (Update frontend pages for deployed backend)
-- User Registration  
-- Secure Login with **JWT (JSON Web Tokens)**  
-- Password hashing using **bcrypt**  
+ Banking Operations
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-###  Banking Operations
-=======
-### 💳 Banking Operations
->>>>>>> 2eedc28 (Updated README documentation)
-=======
-###  Banking Operations
->>>>>>> e7b2ff3 (Update frontend pages for deployed backend)
-- Check account balance  
-- Transfer money between accounts  
-- View transaction history  
-- (Optional) Deposit & Withdraw  
+Check account balance
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-###  User Profile
-=======
-### 👤 User Profile
->>>>>>> 2eedc28 (Updated README documentation)
-=======
-###  User Profile
->>>>>>> e7b2ff3 (Update frontend pages for deployed backend)
-- View name, email, account number  
-- View balance  
-- Joined date  
+Transfer money between accounts
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-###  Frontend UI
-=======
-### 🎨 Frontend UI
->>>>>>> 2eedc28 (Updated README documentation)
-=======
-###  Frontend UI
->>>>>>> e7b2ff3 (Update frontend pages for deployed backend)
-- Clean and modern React interface  
-- Navigation bar  
-- Responsive design  
-- (Optional) Dark/Light mode  
+View transaction history
 
----
+(Optional) Deposit & Withdraw funds
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-##  Tech Stack
-=======
-## 🛠 Tech Stack
->>>>>>> 2eedc28 (Updated README documentation)
-=======
-##  Tech Stack
->>>>>>> e7b2ff3 (Update frontend pages for deployed backend)
+ User Profile
 
-### **Frontend**
-- React.js  
-- Axios  
-- React Router  
-- Bootstrap / CSS  
+View name, email, account number
 
-### **Backend**
-- Node.js  
-- Express.js  
-- Mongoose  
-- JWT Authentication  
-- Bcrypt Password Hashing  
+Check available balance
 
-### **Database**
-- MongoDB  
-<<<<<<< HEAD
-## ⚙️ Installation & Setup
-=======
+Joined date
 
----
+ Frontend UI
 
-##  Installation & Setup
->>>>>>> e7b2ff3 (Update frontend pages for deployed backend)
+Clean and modern React interface
 
-### Clone the repository
-```bash
+Navigation bar
+
+Fully responsive design
+
+(Optional) Dark/Light mode
+
+ Tech Stack
+Frontend
+
+React.js
+
+Axios
+
+React Router
+
+Bootstrap / Custom CSS
+
+Backend
+
+Node.js
+
+Express.js
+
+Mongoose
+
+JWT Authentication
+
+Bcrypt Password Hashing
+
+Database
+
+MongoDB
+
+ Installation & Setup
+ Clone the repository
+git clone <your-repo-url>
 cd banking-system
 
-
- ## **Backend Setup**:
-
-## Install backend dependencies
+ Backend Setup
+Install backend dependencies
 cd backend
 npm install
 
-## Create a .env file:
+Create a .env file inside /backend
 MONGO_URI=your_mongodb_url
 JWT_SECRET=your_secret_key
 PORT=5000
 
-## Start backend
+Start the backend server
 nodemon server.js
 
 
-## Backend runs at
+ Backend runs at: http://localhost:5000
 
-http://localhost:5000
-
- ## **Frontend Setup**:
-## Install frontend dependencies
+ Frontend Setup
+Install frontend dependencies
 cd ../frontend
 npm install
 npm start
 
 
-## Frontend runs at:
+ Frontend runs at: http://localhost:3000
 
-http://localhost:3000
-
-## **API Endpoints** (Backend):
+ API Endpoints (Backend)
+Authentication
 Method	Endpoint	Description
 POST	/api/auth/register	Register new user
 POST	/api/auth/login	Login user
 GET	/api/auth/profile	Get user profile
+Banking Routes
+Method	Endpoint	Description
 POST	/api/account/transfer	Transfer money
-GET	/api/account/transactions	Fetch transactions
+GET	/api/account/transactions	Fetch transaction history
+ How to Run the Project
 
-## **How to Run the Project**
+Start backend → nodemon server.js
 
--Start backend → nodemon server.js
--Start frontend → npm start
--Create an account
--Login
--Explore dashboard
--Transfer funds
--View transactions
--View profile
+Start frontend → npm start
 
+Create an account
+
+Login
+
+Access dashboard
+
+Transfer funds
+
+View transactions
+
+View profile
