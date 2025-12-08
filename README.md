@@ -1,126 +1,120 @@
- Banking System – MERN Stack Project
+#  Banking System – MERN Stack Project
 
-A full-stack digital banking application built using MongoDB, Express.js, React.js, and Node.js (MERN).
-This project enables users to register, log in, transfer money, track transactions, and manage their accounts securely.
+A fully functional **online banking application** built using the **MERN stack** (MongoDB, Express.js, React.js, Node.js).  
+This project supports **user registration, login, balance checking, money transfers, and transaction history**, with full deployment on **Render (backend)** and **Vercel (frontend)**.
 
- Features
- Authentication
+---
 
-User Registration
+##  Live Demo
 
-Secure Login using JWT (JSON Web Tokens)
+### 🌐 **Frontend (User UI)**
+🔗 https://banking-system-mu-two.vercel.app
 
-Password hashing with bcrypt
+### ⚙️ **Backend (REST API)**
+🔗 https://banking-system-nc7o.onrender.com
 
- Banking Operations
+---
 
-Check account balance
+##  Features
 
-Transfer money between accounts
+###  **User Authentication**
+- Register with unique account number generation  
+- Login using JWT-based authentication  
+- Secure password hashing
 
-View transaction history
+###  **Banking Operations**
+- Check account balance  
+- Transfer money between accounts  
+- View transaction history  
+- Validations for insufficient balance
 
-(Optional) Deposit & Withdraw funds
+###  **Deployment**
+- **Frontend**: Vercel  
+- **Backend**: Render  
+- **Database**: MongoDB Atlas  
+- CORS enabled for secure communication
 
- User Profile
+---
 
-View name, email, account number
+##  Tech Stack
 
-Check available balance
+### Frontend
+- React.js  
+- React Router  
+- Axios  
 
-Joined date
+### Backend
+- Node.js  
+- Express.js  
+- JWT  
+- Bcrypt  
+- Mongoose  
 
- Frontend UI
+### Database
+- MongoDB Atlas
 
-Clean and modern React interface
+---
 
-Navigation bar
+##  Project Structure
 
-Fully responsive design
+banking-system/
+│
+├── backend/
+│ ├── models/
+│ ├── routes/
+│ ├── server.js
+│ ├── package.json
+│
+└── frontend/
+├── src/
+├── public/
+├── package.json
 
-(Optional) Dark/Light mode
+---
 
- Tech Stack
-Frontend
+##  Installation & Setup (Local)
 
-React.js
-
-Axios
-
-React Router
-
-Bootstrap / Custom CSS
-
-Backend
-
-Node.js
-
-Express.js
-
-Mongoose
-
-JWT Authentication
-
-Bcrypt Password Hashing
-
-Database
-
-MongoDB
-
- Installation & Setup
- Clone the repository
-git clone <your-repo-url>
+### 1. Clone the repository
+```bash
+git clone https://github.com/KanthaAnanya/banking-system.git
 cd banking-system
 
- Backend Setup
-Install backend dependencies
+---
+
+## ▶️ Installation & Setup (Local)
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/KanthaAnanya/banking-system.git
+
+Backend Setup
+cd banking-system
 cd backend
 npm install
-
-Create a .env file inside /backend
-MONGO_URI=your_mongodb_url
+Create .env file:
+MONGO_URI=your-mongodb-atlas-uri
 JWT_SECRET=your_secret_key
-PORT=5000
-
-Start the backend server
-nodemon server.js
-
-
- Backend runs at: http://localhost:5000
-
- Frontend Setup
-Install frontend dependencies
-cd ../frontend
+Start Backend:
+npm start
+Frontend Setup
+cd frontend
 npm install
 npm start
-
-
- Frontend runs at: http://localhost:3000
-
- API Endpoints (Backend)
-Authentication
+ API Endpoints
+Auth
 Method	Endpoint	Description
 POST	/api/auth/register	Register new user
 POST	/api/auth/login	Login user
-GET	/api/auth/profile	Get user profile
-Banking Routes
-Method	Endpoint	Description
-POST	/api/account/transfer	Transfer money
-GET	/api/account/transactions	Fetch transaction history
- How to Run the Project
+Account
 
-Start backend → nodemon server.js
+| GET | /api/account/balance | Get balance |
+| POST | /api/account/transfer | Transfer money |
 
-Start frontend → npm start
+Transactions
 
-Create an account
+| GET | /api/transactions | Get transactions |
 
-Login
+ Conclusion
 
-Access dashboard
+This project demonstrates a complete, secure, fully deployed MERN-based banking system with real-time API communication and database integration—ideal for academic submissions, portfolio projects, and interviews.
 
-Transfer funds
-
-View transactions
-
-View profile
