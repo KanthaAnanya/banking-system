@@ -1,120 +1,208 @@
-#  Banking System – MERN Stack Project
+# 🏦 Banking System – MERN Stack Project
 
-A fully functional **online banking application** built using the **MERN stack** (MongoDB, Express.js, React.js, Node.js).  
-This project supports **user registration, login, balance checking, money transfers, and transaction history**, with full deployment on **Render (backend)** and **Vercel (frontend)**.
+A fully functional **Online Banking Application** built using the **MERN Stack** (MongoDB, Express.js, React.js, Node.js).
 
----
-
-##  Live Demo
-
-### 🌐 **Frontend (User UI)**
-🔗 https://banking-system-mu-two.vercel.app
-
-### ⚙️ **Backend (REST API)**
-🔗 https://banking-system-nc7o.onrender.com
+The application allows users to register, securely log in, check their account balance, transfer money, and view transaction history. It is fully deployed with **Vercel** (Frontend), **Render** (Backend), and **MongoDB Atlas** (Database).
 
 ---
 
-##  Features
+# 🚀 Live Demo
 
-###  **User Authentication**
-- Register with unique account number generation  
-- Login using JWT-based authentication  
-- Secure password hashing
+### 🌐 Frontend
+https://banking-system-mu-two.vercel.app
 
-###  **Banking Operations**
-- Check account balance  
-- Transfer money between accounts  
-- View transaction history  
-- Validations for insufficient balance
-
-###  **Deployment**
-- **Frontend**: Vercel  
-- **Backend**: Render  
-- **Database**: MongoDB Atlas  
-- CORS enabled for secure communication
+### ⚙️ Backend API
+https://banking-system-nc7o.onrender.com
 
 ---
 
-##  Tech Stack
+# ✨ Features
 
-### Frontend
-- React.js  
-- React Router  
-- Axios  
+## 🔐 User Authentication
+- User Registration
+- Automatic Account Number Generation
+- Secure Login using JWT Authentication
+- Password Hashing with Bcrypt
 
-### Backend
-- Node.js  
-- Express.js  
-- JWT  
-- Bcrypt  
-- Mongoose  
+## 💰 Banking Operations
+- View Account Balance
+- Transfer Money Between Accounts
+- Transaction History
+- Insufficient Balance Validation
+- Secure API Authorization
 
-### Database
+## ☁️ Deployment
+- Frontend deployed on **Vercel**
+- Backend deployed on **Render**
+- Database hosted on **MongoDB Atlas**
+- CORS configured for secure communication
+
+---
+
+# 🛠 Tech Stack
+
+## Frontend
+- React.js
+- React Router DOM
+- Axios
+
+## Backend
+- Node.js
+- Express.js
+- JWT Authentication
+- Bcrypt
+- Mongoose
+
+## Database
 - MongoDB Atlas
 
 ---
 
-##  Project Structure
+# 📁 Project Structure
 
+```text
 banking-system/
 │
 ├── backend/
-│ ├── models/
-│ ├── routes/
-│ ├── server.js
-│ ├── package.json
+│   ├── models/
+│   ├── routes/
+│   ├── middleware/
+│   ├── server.js
+│   ├── package.json
+│   └── .env
 │
-└── frontend/
-├── src/
-├── public/
-├── package.json
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   ├── package.json
+│   └── ...
+│
+└── README.md
+```
 
 ---
 
-##  Installation & Setup (Local)
+# ⚙️ Installation & Setup
 
-### 1. Clone the repository
+## 1. Clone the Repository
+
 ```bash
 git clone https://github.com/KanthaAnanya/banking-system.git
 cd banking-system
+```
 
 ---
 
-## ▶️ Installation & Setup (Local)
+## 2. Backend Setup
 
-### 1. Clone the repository
 ```bash
-git clone https://github.com/KanthaAnanya/banking-system.git
-
-Backend Setup
-cd banking-system
 cd backend
 npm install
-Create .env file:
-MONGO_URI=your-mongodb-atlas-uri
+```
+
+Create a `.env` file inside the **backend** folder:
+
+```env
+MONGO_URI=your_mongodb_atlas_uri
 JWT_SECRET=your_secret_key
-Start Backend:
+```
+
+Start the backend server:
+
+```bash
 npm start
-Frontend Setup
+```
+
+---
+
+## 3. Frontend Setup
+
+Open another terminal.
+
+```bash
 cd frontend
 npm install
 npm start
- API Endpoints
-Auth
-Method	Endpoint	Description
-POST	/api/auth/register	Register new user
-POST	/api/auth/login	Login user
-Account
+```
 
-| GET | /api/account/balance | Get balance |
-| POST | /api/account/transfer | Transfer money |
+The React application will run on:
 
-Transactions
+```
+http://localhost:3000
+```
 
-| GET | /api/transactions | Get transactions |
+---
 
- Conclusion
+# 📡 REST API Endpoints
 
-This project demonstrates a complete, secure, fully deployed MERN-based banking system with real-time API communication and database integration—ideal for academic submissions, portfolio projects, and interviews.
+## Authentication
 
+| Method | Endpoint | Description |
+|---------|----------|-------------|
+| POST | `/api/auth/register` | Register a new user |
+| POST | `/api/auth/login` | Login user |
+
+---
+
+## Account
+
+| Method | Endpoint | Description |
+|---------|----------|-------------|
+| GET | `/api/account/balance` | Get account balance |
+| POST | `/api/account/transfer` | Transfer money |
+
+---
+
+## Transactions
+
+| Method | Endpoint | Description |
+|---------|----------|-------------|
+| GET | `/api/transactions` | Get transaction history |
+
+---
+
+# 🔒 Security Features
+
+- JWT Authentication
+- Password Hashing using Bcrypt
+- Protected API Routes
+- MongoDB Atlas Database
+- Environment Variables
+- CORS Configuration
+
+---
+
+# 🎯 Future Enhancements
+
+- Deposit & Withdraw Module
+- Email Notifications
+- Admin Dashboard
+- Profile Management
+- Password Reset
+- Transaction Search & Filters
+- Responsive Mobile UI
+
+---
+
+# 📸 Screenshots
+
+> Add screenshots of:
+- Login Page
+- Registration Page
+- Dashboard
+- Money Transfer
+- Transaction History
+
+---
+
+# 👩‍💻 Author
+
+**Ananya Kantha**
+
+GitHub: https://github.com/KanthaAnanya
+
+---
+
+# 📄 License
+
+This project is developed for **learning, portfolio, and academic purposes**.
